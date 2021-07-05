@@ -1,6 +1,5 @@
 import os
 import psycopg2
-from config import DB_PWD
 
 DB_PWD = os.environ['DB_PWD']
 
