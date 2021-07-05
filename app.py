@@ -6,6 +6,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from telegram.utils.helpers import mention_markdown
 
 from database import BotDatabase
+from config import TOKEN
 
 TOKEN = os.getenv('TGBOT_TOKEN')
 
