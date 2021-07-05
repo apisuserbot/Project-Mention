@@ -12,6 +12,10 @@
     "HEROKU_APP_NAME": {
       "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
       "required": true
+    },
+    "DB_PWD": {
+      "description": "Database bot",
+      "value": "0.0.0.0"
     }
   }
 }
