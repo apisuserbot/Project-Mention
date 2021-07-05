@@ -1,18 +1,7 @@
 # mention-all-bot
+mention-all-bot adalah bot telegram yang membantu menyebutkan semua pengguna dalam grup.
 
-mention-all-bot is a telegram bot that helps to mention all users in a group.
-
-## Usage
-
-1. Use [hosted](https://t.me/mention_all_the_bot) or host yourself
-
-1. Add to your group
-
-1. Everyone who wants to receive notifications opts-in using /in
-
-1. Now you can call everyone with /all
-
-Commands:
+Perintah :
 
 ```
 /start - Display help text
@@ -26,8 +15,8 @@ Commands:
 
 ```bash
 # clone the repo
-git clone https://github.com/pischule/mention-all-bot.git
-cd mention-all-bot
+git clone https://github.com/apisuserbot/Project-Mention.git
+cd Project-Mention
 
 # set your bot token and db password
 echo "TGBOT_TOKEN=????????" > .env
@@ -36,9 +25,6 @@ echo "DB_PWD=????????" >> .env
 # run the app
 docker-compose up -d
 ```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 GNU GPLv3
