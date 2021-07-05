@@ -7,7 +7,7 @@ from telegram.utils.helpers import mention_markdown
 
 from database import BotDatabase
 
-TOKEN = os.getenv('TOKEN')
+TOKEN = os.getenv('TGBOT_TOKEN')
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
