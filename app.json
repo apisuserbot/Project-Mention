@@ -1,0 +1,21 @@
+{
+  "name": "Project-Mention",
+  "description": "Bot Mention pemanggil group telegram.",
+  "repository": "https://github.com/apisuserbot/Project-Mention",
+  "logo": "https://telegra.ph/file/f9edcf0f82516206171d9.jpg",
+  "keywords": ["Project-Mention", "telegram", "python"],
+  "env": {
+    "TOKEN": {
+      "description": "Token bot dapatkan di @botfather",
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
+      "required": true
+    },
+    "DB_PWD": {
+      "description": "Paswword database (isi asal gapapa)",
+      "value": ""
+    }
+  }
+}
