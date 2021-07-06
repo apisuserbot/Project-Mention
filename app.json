@@ -15,7 +15,7 @@
     },
     "DB_PWD": {
       "description": "Database bot",
-      "value": "0.0.0.0"
+      "value": "postgres"
     }
   }
 }
